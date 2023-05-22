@@ -1,0 +1,127 @@
+body{
+    margin: 0%;
+}
+.top-container{
+    background-image: url("https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGVjaG5vbG9neXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: ghostwhite;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px; 
+
+}
+.text{
+    margin: 40px 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.navbar{
+    display: flex;
+    position: fixed;
+    background-color:white ;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .5);
+    transition: background-color 0.4s; 
+    
+
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+}
+.navbar li a{
+    text-decoration: none;
+    margin: 1px 15px;
+    color: black;
+    font-family:cursive;
+
+}
+.navbar li a:hover{
+color: blue;
+}
+.navbar.active{
+    background-color: black;
+}
+.navbar.active ul li a{
+color: azure;
+}
+.subscribe {
+    position: relative;
+    height: 140px;
+    width: 240px;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 4px;
+    color: #333;
+    box-shadow: 0px 0px 60px 5px rgba(0, 0, 0, 0.4);
+  }
+  
+  .subscribe:after {
+    position: absolute;
+    content: "";
+    right: -10px;
+    bottom: 18px;
+    width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #1a044e;
+  }
+  
+  .subscribe p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    line-height: 28px;
+  }
+  
+  .subscribe input {
+    position: absolute;
+    bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #d4d4d4;
+    padding: 10px;
+    width: 82%;
+    background: transparent;
+    transition: all .25s ease;
+  }
+  
+  .subscribe input:focus {
+    outline: none;
+    border-bottom: 1px solid #0d095e;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 'sans-serif';
+  }
+  
+  .subscribe .submit-btn {
+    position: absolute;
+    border-radius: 30px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    background-color: #0f0092;
+    color: #FFF;
+    padding: 12px 25px;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    right: -10px;
+    bottom: -20px;
+    cursor: pointer;
+    transition: all .25s ease;
+    box-shadow: -5px 6px 20px 0px rgba(26, 26, 26, 0.4);
+  }
+  
+  .subscribe .submit-btn:hover {
+    background-color: #07013d;
+    box-shadow: -5px 6px 20px 0px rgba(88, 88, 88, 0.569);
+  }
